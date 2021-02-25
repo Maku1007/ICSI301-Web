@@ -1,0 +1,29 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.flex-container div {
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px 0 0 10px;
+  background-color: #eeeff2;
+  border-left: dotted 10px #d0d0ff;
+  font-size: 40px;
+  font-family: Tahoma;
+}
+
+.box-6 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.flex-container :hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}

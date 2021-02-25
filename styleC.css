@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-container div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Lobster", cursive;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.box-1 {
+  background-color: #ff0000;
+  color: #4b0082;
+  font-family: "Raleway", sans-serif;
+  transition: width 2s, height 4s;
+  animation-name: box-1;
+  animation-duration: 4s;
+}
+
+@keyframes box-1 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+.box-2 {
+  background-color: #ffa500;
+  color: #0000ff;
+  position: relative;
+  transition: width 4s, height 2s;
+  animation-name: box-2;
+  animation-duration: 4s;
+}
+
+@keyframes box-2 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: green;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: red;
+    left: 200px;
+    top: 240px;
+  }
+  75% {
+    background-color: yellow;
+    left: 0px;
+    top: 240px;
+  }
+  100% {
+    background-color: blue;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.box-3 {
+  background-color: #ffff00;
+  color: #008000;
+  position: relative;
+  transition: width 2s, height 2s;
+  transition-delay: 1s;
+  animation-name: box-3;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+}
+
+@keyframes box-3 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 120px;
+    top: 0px;
+  }
+  50% {
+    background-color: red;
+    left: 120px;
+    top: 120px;
+  }
+  75% {
+    background-color: blue;
+    left: 0px;
+    top: 120px;
+  }
+  100% {
+    background-color: green;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.box-4 {
+  background-color: #008000;
+  color: #ffff00;
+  position: relative;
+  transition: width 4s, height 2s, transform 1s;
+  transition-delay: 1s;
+  animation-name: box-4;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+
+@keyframes box-4 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 240px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 240px;
+  }
+  100% {
+    background-color: purple;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.box-5 {
+  background-color: #0000ff;
+  color: #ffa500;
+  position: relative;
+  animation-name: box-5;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes box-5 {
+  from {
+    top: 0px;
+    background-color: yellow;
+  }
+  to {
+    top: 200px;
+  }
+}
+
+.box-6 {
+  background-color: #4b0082;
+  color: #ff0000;
+  transition: width 1s, height 3s;
+}
+
+.flex-container :hover {
+  background: linear-gradient(to right, #008388, #71d5e4);
+  color: rgb(170, 144, 80);
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+}

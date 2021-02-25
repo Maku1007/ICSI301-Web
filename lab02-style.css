@@ -1,0 +1,184 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container div {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  border: 1px solid gray;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courgette", cursive;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.container th,
+td {
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.container th {
+  height: 30px;
+  background-color: #e5e8e8;
+  font-family: "Courgette", cursive;
+}
+
+.container td {
+  width: 30px;
+  height: 18px;
+}
+
+.container td:nth-child(6n-5) {
+  background-color: #fdf5e6;
+}
+
+#week {
+  background-color: #ffe4c4;
+}
+
+#special_1 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: #bbb;
+  border-radius: 50%;
+}
+
+#special_2 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: cadetblue;
+  border-radius: 50%;
+}
+
+#special_3 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+}
+
+#special_4 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: thistle;
+  border-radius: 50%;
+}
+
+#special_5 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: #bb9955;
+  border-radius: 50%;
+}
+
+#special_6 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: #bc8f8f;
+  border-radius: 50%;
+}
+
+#special_7 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: #cd853f;
+  border-radius: 50%;
+}
+
+#special_8 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: #d2b48c;
+  border-radius: 50%;
+}
+
+#special_9 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: #ccccee;
+  border-radius: 50%;
+}
+
+#special_10 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: #556677;
+  border-radius: 50%;
+}
+
+#special_11 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: #8899aa;
+  border-radius: 50%;
+}
+
+#special_12 {
+  height: 15px;
+  width: 15px;
+  color: white;
+  background-color: #889977;
+  border-radius: 50%;
+}
+
+/*** json oroh heseg ***/
+.container_json {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.container_json div {
+  width: 1060px;
+  height: auto;
+  margin: 10px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.container_json th {
+  height: 30px;
+  background-color: #e5e8e8;
+  font-family: "Courgette", cursive;
+  border: 1px solid gray;
+}
+
+.container_json td {
+  border: 1px solid gray;
+  height: 20px;
+  text-align: center;
+}
+
+.container_json td:nth-child(odd) {
+  width: 120px;
+  background-color: #fdf5e6;
+  font-family: "Courgette", cursive;
+}
+
+.container_json td:nth-child(even) {
+  width: 410px;
+  font-family: "Scheherazade", serif;
+  text-align: justify;
+  padding: 3px 10px 3px 10px;
+}
